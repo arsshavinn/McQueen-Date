@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.center {
+    text-align: center;
+}
+
+#gif {
+    width: 450px;
+    height: 250px;
+}
+
+#buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#yesButton,
+#noButton {
+    width: 60px;
+    height: 40px;
+}
+
+#baslik {
+    font-size: 30px; 
+    font-family: 'Roboto', sans-serif;
+}
+#yesButton {
+   width: 100px;
+   border: 1px solid #000;
+   background-color: #902116;
+   color: white;
+   cursor: pointer;
+}
+
+#noButton {
+    width: 100px;
+    border: 1px solid #000;
+    background-color: #902116;
+    color: white;
+    cursor: none;
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1#baslik {
+        font-size: 30px; 
+    }
+
+    #gif {
+        width: 300px;
+        height: 150px;
+    }
+
+    #yesButton ,
+    #noButton{
+        width: 60px;
+     }
+ }
